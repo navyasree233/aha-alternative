@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AHA alternate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <diV class="select">
+        <h1>subscribe</h1>
+    </diV>
+
+    <div class="options">
+        <div class="option">
+            <label for="subscription-type-duration">Duration</label>
+            <select id="subscription-type-duration">
+                <option value="any">Any</option>
+                <option value="annual">Annual</option>
+                <option value="quarterly">Quarterly</option>
+                <option value="monthly">Monthly</option>
+            </select>
+        </div>
+        <div class="option">
+            <label for="subscription-type-currency">Currency</label>
+        <select id="subscription-type-currency">
+            <option value="inr">INR ₹</option>
+            <option value="dollar">Dollar $</option>
+            <option value="euro">Euro €</option>
+        </select>
+        </div>
+    </div>
+    <div class="view-plans-content">
+        <div class="plan-card" value="annual">
+            <img src="card.svg" >
+            <div class="card-content">
+                <div class="lbl">RECOMMENDED</div>
+                <div class="title">
+                    <img src="aha-gold.6866de1c39877081.svg">
+                </div>
+                <div class="description">
+                    <p>4K · Dolby 5.1 · Telugu + Tamil Movies & Web series · 1 Year</p>
+                </div>
+                <div class="footer border">
+                    <div class="rate" value="annualgold">INR 899 / year</div> 
+                    <button class="subscribe gold">Subscribe</button>   
+                </div>
+            </div>
+        </div>
+        <div class="plan-card" value="annual">
+            <img src="card.svg" >
+            <div class="card-contentt">
+                <div class="lbl green">New Plan</div>
+                <div class="title">
+                    Annual Premium
+                </div>
+                <div class="description">
+                    <p>Full HD (1080p) · Stereo · Telugu Movies & Web series · 1 Year</p>
+                </div>
+                <div class="footer border opacity-30">
+                    <div class="rate" value="annualpremium">INR 699 / year</div> 
+                    <button class=" subscribe orange">Subscribe</button>   
+                </div>
+            </div>
+        </div>
+        <div class="plan-card" value="annual">
+            <img src="card.svg" >
+            <div class="card-contentt">
+                <div class="lbl green">Save 43%</div>
+                <div class="title">
+                    Annual Basic
+                </div>
+                <div class="description">
+                    <p>HD (720p) · Stereo · Telugu Movies & Web series · 1 Year</p>
+                </div>
+                <div class="footer border opacity-30">
+                    <div class="rate" value="annualbasic">INR 399 / year</div> 
+                    <button class=" subscribe orange">Subscribe</button>   
+                </div>
+            </div>
+        </div>
+        <div class="plan-card" value="quarterly">
+            <img src="card.svg" >
+            <div class="card-contentt">
+                <div class="lbl green">VALUE PACK</div>
+                <div class="title">
+                    Quarterly Premium
+                </div>
+                <div class="description">
+                    <p>Full HD (1080p) · Stereo · Telugu Movies & Web series · 3 Months</p>
+                </div>
+                <div class="footer border opacity-30">
+                    <div class="rate" value="quarterlypremium">INR 199 / 3 months</div> 
+                    <button class=" subscribe orange">Subscribe</button>   
+                </div>
+            </div>
+        </div>
+        <div class="plan-card" value="quarterly">
+            <img src="card.svg" >
+            <div class="card-contentt">
+                <div class="lbl green">Saver</div>
+                <div class="title">
+                     Quarterly Mobile
+                </div>
+                <div class="description">
+                    <p>HD (720p) · Stereo · Telugu Movies & Web series · 3 Months · First time subscribers only</p>
+                </div>
+                <div class="footer border opacity-30">
+                    <div class="rate" value="quarterlymobile">INR 99 / 3 months</div> 
+                    <button class=" subscribe orange">Subscribe</button>   
+                </div>
+            </div>
+        </div>
+        <div class="plan-card" value="monthly">
+            <img src="card.svg" >
+            <div class="card-contentt">
+                <div class="lbl blue">Mini</div>
+                <div class="title">
+                     Monthly Basic
+                </div>
+                <div class="description">
+                    <p>4K · Dolby 5.1 · Telugu + Tamil Movies & Web series · 1 Month</p>
+                </div>
+                <div class="footer border opacity-30">
+                    <div class="rate" value="monthlybasic">INR 99 / month</div> 
+                    <button class=" subscribe orange">Subscribe</button>   
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
